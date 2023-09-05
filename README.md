@@ -9,6 +9,12 @@
 
 Welcome to the AI Image Generator web app! This 🌟 app leverages the power of Flask and the OpenAI module to create stunning images based on text prompts. Whether you're an artist seeking inspiration or a developer exploring the capabilities of AI, this tool has you covered.
 
+## ⚠️ Project Status
+
+🚧 **Under Development** 🚧
+
+Please note that this project is still a work in progress. We are actively developing and refining the application to offer a seamless experience to our users. As a result, you may encounter some bugs or incomplete features. However, we encourage you to **contribute** to the project by reporting issues, suggesting improvements, or even submitting pull requests. Let's make ai Image generation even better together!
+
 ## 🌟 Features
 
 - **Text-Based Image Generation:** Simply input a text prompt, and watch as the AI generates an image that interprets your prompt.
