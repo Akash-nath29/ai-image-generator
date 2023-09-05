@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}ImageGenerate{% endblock %}
+{% block body %}
+
+<h1>Generate Image</h1>
+<form action="/" method="post">
+    <input type="text" name="generateQuery" id="generateQuery" placeholder="Enter Query" autocomplete="off">
+    <input type="submit" value="Generate">
+</form>
+<!-- <button id="download">Download</button> -->
+
+<div class="imageShow">
+    <img src="{{image_url}}" alt="generatedImage" id="generatedImage">
+</div>
+
+{% endblock %}
