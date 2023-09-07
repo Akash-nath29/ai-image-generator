@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import openai
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] =\
         'sqlite:///' + os.path.join(basedir, 'database.db')
